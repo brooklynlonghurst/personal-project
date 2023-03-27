@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <title>Profile</title>
+</head>
+
+
+<body>
+  <h1>The Botanical Blog</h1>
+  <nav class="navBar">  
+    <a class="aTag" href="./home.html">Home</a>
+    <a class="aTag" href="./profile.html">Profile</a>
+    <a class="aTag" href="./about.html">About</a> 
+  </nav>
+
+ 
+
+  <!-- <div class="white-content-box"> -->
+    <form>
+      <input
+        type='text'
+        id="title"
+        placeholder="Name of Plant"/>
+      <input 
+        type='text'
+        id="img"
+        placeholder='Paste an image URL'/>
+      <textarea name="Description" id="description" cols="20" rows="10"></textarea>
+      <button id="addPlantButton">Add Your Plant</button>
+    </form>
+  <!-- </div> -->
+
+  <section id="plant-pic-container"></section>
+
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="profile.js"></script>
+
+</body>
+</html>
